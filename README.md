@@ -17,7 +17,7 @@ The Taku (AnyThink) mediation adapter for iOS, distributed via Swift Package Man
    ```
    https://github.com/TakuMediation-packages/AnyThinkMediationBigoAdapter_SPM.git
    ```
-3. Select **Exact Version** and enter the target version (e.g. `50300.2.0`).
+3. Select **Exact Version** and enter the target version (e.g. `60100.2.0`).
 4. Add the `AnyThinkMediationBigoAdapter` product to your app target.
 5. In your target's **Build Settings**, add `-ObjC` to **Other Linker Flags**.
 
@@ -27,7 +27,7 @@ The Taku (AnyThink) mediation adapter for iOS, distributed via Swift Package Man
 dependencies: [
     .package(
         url: "https://github.com/TakuMediation-packages/AnyThinkMediationBigoAdapter_SPM.git",
-        exact: "50300.2.0"
+        exact: "60100.2.0"
     )
 ]
 ```
